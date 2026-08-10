@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeHer - Women's Safety</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>SafeHer</h1>
+        <p>Your Safety, Our Priority</p>
+    </header>
+
+    <main>
+
+        <section class="welcome">
+            <h2>Welcome to SafeHer</h2>
+            <p>Quick emergency assistance whenever you need it.</p>
+        </section>
+
+        <section class="sos-section">
+            <button id="sosButton">SOS</button>
+            <p>Press for Emergency Help</p>
+        </section>
+
+        <section class="features">
+    <button id="shareLocation">📍 Share Location</button>
+    <button id="emergencyContacts">👥 Emergency Contacts</button>
+    <button id="nearbyHelp">🏥 Nearby Help</button>
+</section>
+
+<section id="contactsSection" class="contacts-section">
+
+    <h2>👥 Emergency Contacts</h2>
+    <p>Add people you trust for emergency situations.</p>
+
+    <div class="contact-form">
+        <input
+            type="text"
+            id="contactName"
+            placeholder="Contact Name"
+        >
+
+        <input
+            type="tel"
+            id="contactPhone"
+            placeholder="Phone Number"
+        >
+
+        <button id="addContact">➕ Add Contact</button>
+    </div>
+
+    <div id="contactList"></div>
+
+</section>
+
+    </main>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
+<button id="whatsappSOS">💬 Send SOS on WhatsApp</button>
+<button id="imSafeButton">✅ I'm Safe</button>
+<button id="safetyTimer">⏱ Start 30-Second Safety Timer</button>
+<p id="timerStatus"></p>
