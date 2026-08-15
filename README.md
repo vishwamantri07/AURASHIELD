@@ -37,10 +37,8 @@ Women may face safety risks in public places, during travel, or in emergency sit
 - Integration with emergency services
 - Additional safety and reporting features
 
-## 👥 Team Spark
 
-**Team Leader:** Vishwa Mahesh Mantri  
-**Team Member:** Vishrutha Shetty P.
+by, Vishwa Mahesh Mantri  
 
 ---
 
